@@ -60,7 +60,6 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
             <PercentImage
               src="/images/me.jpg"
               alt="me"
-              blur="/images/me-preview.jpg"
               width="80%"
               height="100%"
             />
