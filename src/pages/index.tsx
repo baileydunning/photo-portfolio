@@ -74,7 +74,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
           </Grid>
 
           {/*My photo is shown on the left, except for small breaks where it will be scaked*/}
-          <Grid item xs={12} sm={4} sx={{ minHeight: "15vh" }}>
+          <Grid item xs={12} sm={4} sx={{ minHeight: "15vh", padding: 2 }}>
             <PercentImage
               src="/images/me.jpg"
               alt="me"
