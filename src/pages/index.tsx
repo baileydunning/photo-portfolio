@@ -1,11 +1,9 @@
 import {Grid, Stack, Typography} from '@mui/material'
-import InstagramIcon from '@mui/icons-material/Instagram'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import PercentImage from '@/components/PercentImage'
 import MainFrame from '@/components/MainFrame'
 import {InferGetStaticPropsType} from 'next'
 import {galleryList} from '@/data/galleryList'
-import PersonSearchIcon from '@mui/icons-material/PersonSearch'
 
 // We need to load the list of galleries from the file system
 // This is done at build time
@@ -38,7 +36,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
             {/* Page content */}
             <Typography variant="body1">
               &nbsp; {"I'm"} a curious and adaptable problem-solver with a
-              passion for discovering new perspectives. My journey has led me
+              passion for discovering new perspectives. My travels have led me
               across the globe, capturing the essence of different cultures and
               environments, all while learning from every encounter. I thrive at
               the intersection of technology, education, and the outdoors, and I
@@ -47,22 +45,13 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
             </Typography>
             <br />
             <Typography variant="body1">
-              As a photographer and traveler, I see the world as a canvas—an
+              As a photographer and traveler, I see the world as an
               opportunity to understand, document, and share stories through a
               lens of exploration and authenticity. &nbsp; Whether {"I'm"}{" "}
               hitchhiking through remote landscapes or immersing myself in local
               communities, my goal is always the same: to experience life fully
               and communicate those moments to others.
             </Typography>
-            <br />
-            <Typography variant="body1">
-              This website is where I combine my love for travel and
-              photography, my background in technology, as well as my commitment
-              to storytelling. I hope to inspire you to see the world through a
-              new lens and embrace the beauty in both the big adventures and the
-              small moments in between.
-            </Typography>
-            <br />
             <br />
           </Grid>
 
