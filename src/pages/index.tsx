@@ -48,7 +48,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
               As a photographer and traveler, I see the world as an
               opportunity to understand, document, and share stories through a
               lens of exploration and authenticity. &nbsp; Whether {"I'm"}{" "}
-              hitchhiking through remote landscapes or immersing myself in local
+              hiking through remote landscapes or immersing myself in local
               communities, my goal is always the same: to experience life fully
               and communicate those moments to others.
             </Typography>
@@ -56,14 +56,15 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
           </Grid>
 
           {/*My photo is shown on the left, except for small breaks where it will be scaked*/}
-          <Grid item xs={12} sm={4} sx={{ minHeight: "15vh" }}>
+            <Grid item xs={12} sm={4} sx={{ minHeight: "15vh" }}>
             <PercentImage
               src="/images/me.jpg"
               alt="me"
+              blur="/images/me-preview.png"
               width="80%"
               height="100%"
             />
-          </Grid>
+            </Grid>
 
           {/*Out social links and signature / watermark are shown side by side, except for very small breaks where they will be stacked*/}
           <Grid
