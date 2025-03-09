@@ -131,13 +131,6 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
               justifyContent: "flex-start",
             }}
           >
-            <PercentImage
-              src="/images/logo.png"
-              alt="My Logo"
-              blur="/images/logo-preview.png"
-              width="80%"
-              height="100%"
-            />
           </Grid>
           {/* Copyright at the bottom */}
           <Grid
