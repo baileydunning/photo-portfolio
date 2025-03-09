@@ -67,14 +67,14 @@ describe('Gallery Lists', () => {
         const galleries = galleryList()
         expect(galleries).toBeDefined()
         expect(galleries.length).toBe(3)
-        expect(galleries[2].key).toBe('03-people')
+        expect(galleries[2].key).toBe('03-norway')
     })
 
     test('Gallery metadata parsed from _index.mdx', () => {
         const galleries = galleryList()
         expect(galleries).toBeDefined()
         expect(galleries.length).toBe(3)
-        expect(galleries[1].keywords).toBe('signs, traffic, funny, gallery, images, photography')
+        expect(galleries[1].keywords).toBe('ireland, images, photography')
         expect(galleries[1].title).toBe('Signs')
         expect(galleries[1].description).toBe('This is a witty gallery of images of traffic signs.')
         expect(galleries[1].caption).toBe('These are THE SIGNS - follow them')

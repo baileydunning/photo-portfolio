@@ -15,7 +15,7 @@ test('about page', async ({ page }) => {
     await expect(page.getByRole('tab', {name: 'About'})).toHaveCount(1)
     await expect(page.getByRole('tab', {name: 'Nature'})).toHaveCount(1)
     await expect(page.getByRole('tab', {name: 'Signs'})).toHaveCount(1)
-    await expect(page.getByRole('tab', {name: '03-people'})).toHaveCount(1)
+    await expect(page.getByRole('tab', {name: '03-norway'})).toHaveCount(1)
 
     await expect(page.getByText('© 2025 Bailey Dunning')).toHaveCount(1)
     await expect(page.getByRole('img', {name: 'me'})).toBeVisible()
@@ -41,7 +41,7 @@ test('signs gallery', async ({ page }) => {
     await expect(page.getByText('These are THE SIGNS - follow them')).toHaveCount(1)
     await expect(page.getByRole('img', { name: 'Sneezy Place Funny Street Sign' })).toHaveCount(1)
 
-    await page.getByRole('tab', { name: '03-people' }).click();
+    await page.getByRole('tab', { name: '03-norway' }).click();
     await expect(page.getByRole('img', { name: 'Children Looking At Zoo Exhibit' })).toHaveCount(1)
 
     await page.getByRole('tab', { name: 'About' }).click();
