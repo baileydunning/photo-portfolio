@@ -27,8 +27,8 @@ importers:
         specifier: ^5.16.7
         version: 5.16.7(@emotion/react@11.13.3(@types/react@18.2.18)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.3(@types/react@18.2.18)(react@18.3.1))(@types/react@18.2.18)(react@18.3.1))(@types/react@18.2.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@next/mdx':
-        specifier: ^13.5.7
-        version: 13.5.7
+        specifier: ^15.2.1
+        version: 15.2.1
       '@react-hook/window-size':
         specifier: ^3.1.1
         version: 3.1.1(react@18.3.1)
@@ -716,8 +716,8 @@ packages:
   '@next/eslint-plugin-next@14.2.15':
     resolution: {integrity: sha512-pKU0iqKRBlFB/ocOI1Ip2CkKePZpYpnw5bEItEkuZ/Nr9FQP1+p7VDWr4VfOdff4i9bFmrOaeaU1bFEyAcxiMQ==}
 
-  '@next/mdx@13.5.7':
-    resolution: {integrity: sha512-VXkH/KPdLiwWSyRyUdU2tcNBKBSNEraKwYVTVZfOwlwGCFP1UoceJZYIMd3oV7RsuH4ouo69Ng5KF3GerDvbqg==}
+  '@next/mdx@15.2.1':
+    resolution: {integrity: sha512-C03Xzo05o0GxASwtFLKWBDZht0ez3C/fZATMfVIfEg/TcWqa/ND6UTgyor7LFdrNvvaGjCRCFnEwYzF/l6PuHA==}
     peerDependencies:
       '@mdx-js/loader': '>=0.15.0'
       '@mdx-js/react': '>=0.15.0'
@@ -3758,7 +3758,7 @@ snapshots:
     dependencies:
       glob: 10.3.10
 
-  '@next/mdx@13.5.7':
+  '@next/mdx@15.2.1':
     dependencies:
       source-map: 0.7.4
 

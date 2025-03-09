@@ -18,7 +18,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
-    "@next/mdx": "^13.5.7",
+    "@next/mdx": "^15.2.1",
     "@react-hook/window-size": "^3.1.1",
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
