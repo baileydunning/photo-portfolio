@@ -2,7 +2,7 @@
 const nextConfig = {
     env: {
         SITE_URL: 'https://next-material-photo-portfolio.pages.dev',
-        name: 'My Name'
+        name: 'Bailey Dunning'
     },
     images: {
         unoptimized: true,

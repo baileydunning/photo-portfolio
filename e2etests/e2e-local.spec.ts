@@ -17,7 +17,7 @@ test('about page', async ({ page }) => {
     await expect(page.getByRole('tab', {name: 'Signs'})).toHaveCount(1)
     await expect(page.getByRole('tab', {name: '03-people'})).toHaveCount(1)
 
-    await expect(page.getByText('© 2023 Change Me')).toHaveCount(1)
+    await expect(page.getByText('© 2025 Bailey Dunning')).toHaveCount(1)
     await expect(page.getByRole('img', {name: 'me'})).toBeVisible()
 })
 

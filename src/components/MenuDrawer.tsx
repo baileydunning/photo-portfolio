@@ -8,7 +8,7 @@ type menuDrawerProps = {
     galleries: gallery[]
 }
 
-const drawerWidth = 150
+const drawerWidth = 200
 
 // This renders the side menu drawer
 // which has one entry for the index page (About)
