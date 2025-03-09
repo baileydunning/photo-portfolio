@@ -63,13 +63,6 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
               small moments in between.
             </Typography>
             <br />
-            <Typography variant="body1">
-              For prints or usage please contact me at{" "}
-              <a style={{ color: "coral" }} href="bwdunning@gmail.com">
-                bwdunning@gmail.com
-              </a>
-              .
-            </Typography>
             <br />
           </Grid>
 
@@ -97,18 +90,6 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
           >
             <Stack direction="column">
               <Stack direction="row" spacing={1} sx={{ m: 1 }}>
-                <InstagramIcon />
-                <div>
-                  <a
-                    style={{ color: "coral" }}
-                    target="_insta"
-                    href="https://www.instagram.com/_bail3y/"
-                  >
-                    @_bail3y
-                  </a>
-                </div>
-              </Stack>
-              <Stack direction="row" spacing={1} sx={{ m: 1 }}>
                 <LinkedInIcon />{" "}
                 <a
                   style={{ color: "coral" }}
@@ -131,13 +112,6 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
               justifyContent: "flex-start",
             }}
           >
-            <PercentImage
-              src="/images/logo.png"
-              alt="My Logo"
-              blur="/images/logo-preview.png"
-              width="80%"
-              height="100%"
-            />
           </Grid>
           {/* Copyright at the bottom */}
           <Grid
