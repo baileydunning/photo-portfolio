@@ -12,6 +12,7 @@ type mainFrameProps = {
 
 // This is the main frame components that wraps the entire page
 export default function MainFrame({children, meta, galleries, index}: mainFrameProps) {
+    
     return <Box id="mainbox" sx={{display: 'flex'}}>
         {/* meta data */}
         <MetaHead meta={meta}/>

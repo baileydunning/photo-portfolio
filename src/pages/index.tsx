@@ -28,21 +28,15 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
     }
 
     const date = new Date()
-    const [mobileOpen, setMobileOpen] = useState(false)
     const isMobile = useMediaQuery('(max-width:600px)')
-
-    useEffect(() => {
-      if (isMobile) {
-        setMobileOpen(true)
-      }
-    }, [isMobile])
 
     return (
       <MainFrame meta={meta} galleries={galleries} index="about">
         <Grid container spacing={0} sx={{ display: "flex", width: "100%" }}>
           <Grid item sm={8}>
             {/* Page title */}
-            <Typography variant="h3" sx={{mb: 2}}>Hello!</Typography>
+            {isMobile ? <Typography variant="h3" sx={{textAlign: "center"}}>Hello!</Typography>
+            : <Typography variant="h2" sx={{mb: 2}}>Hello!</Typography>}
 
             {/* Page content */}
             <Typography variant="body1">
