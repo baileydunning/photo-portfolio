@@ -41,7 +41,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
             {/* Page content */}
             <Typography variant="body1">
               {"I'm"} a curious and adaptable problem-solver with a
-              passion for discovering new perspectives. My journey has led me
+              passion for discovering new perspectives. My travels have led me
               across the globe, capturing the essence of different cultures and
               environments, all while learning from every encounter. I thrive at
               the intersection of technology, education, and the outdoors, and I
@@ -53,7 +53,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
               As a photographer and traveler, I see the world as an
               opportunity to understand, document, and share stories through a
               lens of exploration and authenticity. &nbsp; Whether {"I'm"}{" "}
-              hitchhiking through remote landscapes or immersing myself in local
+              hiking through remote landscapes or immersing myself in local
               communities, my goal is always the same: to experience life fully
               and communicate those moments to others.
             </Typography>
@@ -61,15 +61,15 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
           </Grid>
 
           {/*My photo is shown on the left, except for small breaks where it will be scaked*/}
-          <Grid item xs={12} sm={4} sx={{ minHeight: "15vh" }}>
+            <Grid item xs={12} sm={4} sx={{ minHeight: "15vh" }}>
             <PercentImage
               src="/images/me.jpg"
               alt="me"
-              blur="/images/me-preview.jpg"
+              blur="/images/me-preview.png"
               width="80%"
               height="100%"
             />
-          </Grid>
+            </Grid>
 
           {/*Out social links and signature / watermark are shown side by side, except for very small breaks where they will be stacked*/}
           <Grid
