@@ -32,7 +32,7 @@ export default function MenuDrawer(props: menuDrawerProps) {
           aria-label="open drawer"
           edge="start"
           onClick={handleDrawerToggle}
-          sx={{ position: 'absolute', top: 0, left: 0, padding: 3, mr: 2, display: { sm: "none" } }} // Show only on mobile
+          sx={{ position: 'absolute', top: 0, left: 0, padding: 2, mr: 2, display: { sm: "none" } }} // Show only on mobile
         >
           <MenuIcon />
         </IconButton>
