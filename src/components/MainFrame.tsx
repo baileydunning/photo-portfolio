@@ -1,7 +1,7 @@
-import MetaHead, {metaData} from '@/components/MetaHead'
+import MetaHead, { metaData } from '@/components/MetaHead'
 import MenuDrawer from '@/components/MenuDrawer'
-import {Box} from '@mui/material'
-import {gallery} from '@/data/galleryList'
+import { Box } from '@mui/material'
+import { gallery } from '@/data/galleryList'
 
 type mainFrameProps = {
     children: React.ReactNode
@@ -16,8 +16,8 @@ export default function MainFrame({children, meta, galleries, index}: mainFrameP
         {/* meta data */}
         <MetaHead meta={meta}/>
 
-        {/*main menu as permanent drawer*/}
-        <MenuDrawer item={index} galleries={galleries}/>
+        {/*main menu*/}
+        <MenuDrawer item={index} galleries={galleries} />
 
         {/* body content */}
         <Box id="main-content-box" sx={{flexGrow: 1, p: 1, m: 2, mt: 0}}>
