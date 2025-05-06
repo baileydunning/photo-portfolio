@@ -4,8 +4,7 @@ import PercentImage from '@/components/PercentImage'
 import MainFrame from '@/components/MainFrame'
 import {InferGetStaticPropsType} from 'next'
 import {galleryList} from '@/data/galleryList'
-import { useEffect, useState } from 'react'
-import { useMediaQuery } from '@mui/material'
+import { Analytics } from "@vercel/analytics/react";
 
 // We need to load the list of galleries from the file system
 // This is done at build time
@@ -123,6 +122,7 @@ export default function Index({galleries}: InferGetStaticPropsType<typeof getSta
             sx={{ display: "flex", justifyContent: "flex-end" }}
           ></Grid>
         </Grid>
+        <Analytics />
       </MainFrame>
     );
 }
