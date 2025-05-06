@@ -1,10 +1,10 @@
-import {Grid, Stack, Typography} from '@mui/material'
+import {Grid, Stack, Typography, useMediaQuery} from '@mui/material'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import PercentImage from '@/components/PercentImage'
 import MainFrame from '@/components/MainFrame'
 import {InferGetStaticPropsType} from 'next'
 import {galleryList} from '@/data/galleryList'
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 
 // We need to load the list of galleries from the file system
 // This is done at build time
